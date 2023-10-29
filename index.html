@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bhashini - Daksh Kanaujia</title>
+    <link rel="stylesheet" type="text/css" href="istyles.css">
+    
+</head>
+<body>
+    <h1 class="heading">Bhashini</h1>
+    <div class="div1">
+        <li class="dropdown">Select Source Language
+            <ul class="dropdown-content">
+                <li>English</li>
+                <li>हिंदी(Hindi)</li>
+                <li>मराठी(Marathi)</li>
+                <li>தமிழ்(Tamil)</li>
+                <li>ಕನ್ನಡ(Kannada)</li>
+            </ul>
+        </li>
+    </div>
+    <div class="div2">
+        <li class="dropdown">Select Target Language
+            <ul class="dropdown-content">
+                <li>English</li>
+                <li>हिंदी(Hindi)</li>
+                <li>मराठी(Marathi)</li>
+                <li>தமிழ்(Tamil)</li>
+                <li>ಕನ್ನಡ(Kannada)</li>
+            </ul>
+        </li>
+    </div>
+    <form>
+        <textarea id="myTextarea1" name="textarea1" rows="4" cols="50"></textarea>
+        <textarea id="myTextarea2" name="textarea2" rows="4" cols="50"></textarea>
+    </form>
+    <div class="button1"><button id="myButton">Translate Now!</button></div>
+    <script>
+        // Get a reference to the button element by its id
+        const button = document.getElementById("myButton");
+
+        // Attach a click event listener to the button
+        button.addEventListener("click", function() {
+            // Display an alert message when the button is clicked
+            alert("configuring API call");
+        });
+    </script>
+</body>
+</html>

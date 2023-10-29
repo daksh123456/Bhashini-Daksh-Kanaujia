@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(30, 255, 146);
+}
+
+#myTextarea1, #myTextarea2 {
+    width: 400px; /* Set the width to 400 pixels */
+    height: 200px; /* Set the height to 200 pixels */
+    padding: 10px; /* Add padding inside the textarea */
+    border: 2px solid #333; /* Add a border with a specific color */
+    font-size: 16px; /* Set the font size */
+}
+
+#myTextarea1 {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#myTextarea2 {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+}
+
+.div1:hover .dropdown-content,
+.div2:hover .dropdown-content {
+    display: block;
+}
+
+.div1:hover, .div2:hover {
+    transition: 0.5s;
+    background-color: rgb(14, 202, 202);
+}
+
+.dropdown-content li {
+    color: black;
+    display: block;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid #ffffff;
+}
+
+.dropdown-content li:hover {
+    transition: 0.5s;
+    background-color: white;
+}
+
+.div1, .div2 {
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-emphasis: bold;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    position: absolute;
+}
+
+.div1 {
+    margin-left: 400px;
+    margin-top: 48px;
+}
+
+.div2 {
+    margin-left: 1028px;
+    margin-top: 48px;
+}
+
+.div1 li, .div2 li {
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    width: 230px;
+    height: 30px;
+    background-color: rgb(246, 255, 0);
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #333;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 800px;
+}
+#myButton{
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid black; 
+    margin-top: 50px;  
+    margin-left: 810px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 0);
+}
+
+#myButton:hover {
+    transition: 1s;
+    background-color: orangered;
+    font-weight:bolder;
+}
+/*
+#mybutton{
+    position: relative;
+    margin left: 300px;
+    width: 230px;
+    height: 50px;
+    
+}*/
+
+.button:hover {
+    background-color: rgb(255, 191, 0);
+    transition: 1s;
+    animation: forwards;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.heading {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    margin-left: 750px;
+    margin-bottom: 10px;
+    color: rgb(217, 0, 217);
+    font-size: 80px;
+    text-shadow:
+        -2px -2px 0 #000, /* Top left shadow */
+        2px -2px 0 #000, /* Top right shadow */
+        -2px 2px 0 #000, /* Bottom left shadow */
+        2px 2px 0 #000; /* Bottom right shadow */
+}
+
+.heading:hover {
+    transition: 1s;
+    color: rgb(255, 68, 0);
+}
